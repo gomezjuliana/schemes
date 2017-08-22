@@ -65,6 +65,8 @@
 .header__container hgroup {
 	border-top: solid;
 	border-bottom: solid;
+	width: 256px;
+	margin: 0 auto;
 }
 
 .header__cta {
