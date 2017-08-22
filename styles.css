@@ -58,11 +58,11 @@
 
 /*Header*/
 
-hgroup, .header__cta {
+.header__container hgroup, .header__cta {
 	color: #fff;
 }
 
-hgroup {
+.header__container hgroup {
 	border-top: solid;
 	border-bottom: solid;
 }
@@ -83,6 +83,29 @@ h2 {
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: 21px;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #898F8F;
+}
+
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	line-height: 20px;
 }
 
 p {
@@ -121,4 +144,39 @@ p {
 	border-radius: 50%;
 	width: 10px;
 	height: 10px;
+}
+
+/*About*/
+
+.about {
+	background-color: #164D61;
+	color: #fff;
+	padding: 30px;
+}
+
+.line {
+	width: 40%;
+	height: 2px;
+	background: white;
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.about__briefcase-shadow {
+	height: 40px;
+	width: 40px;
+	background-color: #455A64;
+	border-radius: 50%;
+	margin: 10px auto;
+}
+
+.fa-briefcase {
+	font-size: 25px !important;
+	padding: 7px;
+}
+
+.about p {
+	color: #898F8F;
 }
