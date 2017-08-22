@@ -56,22 +56,7 @@
 	color: #fff;
 }
 
-/*Header*/
-
-.header__container hgroup, .header__cta {
-	color: #fff;
-}
-
-.header__container hgroup {
-	border-top: solid;
-	border-bottom: solid;
-	width: 256px;
-	margin: 0 auto;
-}
-
-.header__cta {
-	margin-top: 50px;
-}
+/*Headings*/
 
 h1 {
 	font-family: 'Montserrat', sans-serif;
@@ -113,6 +98,28 @@ h6 {
 p {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 200;
+	color: #898F8F;
+}
+
+hgroup {
+	margin-bottom: 20px;
+}
+
+/*Header*/
+
+.header__container hgroup, .header__cta p {
+	color: #fff;
+}
+
+.header__container hgroup {
+	border-top: solid;
+	border-bottom: solid;
+	width: 256px;
+	margin: 0 auto;
+}
+
+.header__cta {
+	margin-top: 50px;
 }
 
 .header__container {
@@ -179,6 +186,58 @@ p {
 	padding: 7px;
 }
 
-.about p {
-	color: #898F8F;
+/*Contact*/
+
+.contact h3,
+.contact .fa-star {
+	color: #0DB7C4;
+}
+
+.contact .line {
+	background-color: #0DB7C4;
+}
+
+.container .fa {
+	border: 2px solid #164D61;
+	border-radius: 50%;
+	padding: 5px 6px;
+	color: #164D61;
+}
+
+.container .fa-map-marker {
+	padding: 5px 8px;
+}
+
+form input, 
+#message {
+	background-color: #164D61;
+	padding: 5px 10px;
+	border: none;
+	margin: 5px;
+	width: 90%;
+}
+
+#message {
+	height: 300px;
+	color: grey;
+}
+
+.padding-30 {
+	padding: 30px;
+}
+
+.contact .btn {
+	background-color: #fff;
+	color: #666666;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	border-radius: 0;
+}
+
+/*footer*/
+footer {
+	background-color: #666;
+	height: 50px;
 }
