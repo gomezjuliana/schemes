@@ -24,14 +24,11 @@
 
 .nav-open {
 	display: block;
-	height: 204px;
-	margin: 0 auto;
-	padding-left: 0;
-	padding-right: 0;
 	position: fixed;
 	top: 50px;
 	width: 80%;
 	z-index: 1;
+	left: 15%;
 }
 
 .nav-bar__menu--link {
@@ -43,7 +40,6 @@
 	padding-top: 10px;
 	text-align: center;
 	text-decoration: none;
-	width: 345px;
 }
 
 .fa-bars {
@@ -238,6 +234,58 @@ form input,
 
 /*footer*/
 footer {
-	background-color: #666;
+	background-color: #272F31;
 	height: 50px;
+}
+
+footer .fa {
+	margin: 12px 5px 0;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	padding: 5px;
+	color: #fff;
+}
+
+@media (min-width: 900px) {
+	.line {
+		width: 14%;
+	}
+
+	.about {
+		padding-bottom: 50px;
+	}
+
+	.about-right .line {
+		width: 2px;
+		height: 170px;
+		position: relative;
+		top: -120px;
+		left: 90px;
+	}
+
+	.about-right {
+		display: block;
+		float: left;
+		width: 30%;
+		height: 172px;
+	}
+
+	.about-right .fa-chevron-right {
+		display: none;
+	}
+
+	.contact {
+		clear: both;
+	}
+
+	.form__right,
+	.form__left {
+		display: inline-block;
+	}
+
+	#message {
+		height: 150px;
+		width: 773px;
+	}
+
 }
