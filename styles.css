@@ -151,6 +151,10 @@ hgroup {
 	height: 10px;
 }
 
+.carousel-indicators .active {
+	background-color: #5CC9C1;
+}
+
 /*About*/
 
 .about {
@@ -162,11 +166,15 @@ hgroup {
 .line {
 	width: 40%;
 	height: 2px;
-	background: white;
+	background: #0DB7C4;
 	display: inline-block;
 	margin-bottom: 5px;
 	margin-left: 2px;
 	margin-right: 2px;
+}
+
+.fa-star {
+	color: #0DB7C4;
 }
 
 .about__briefcase-shadow {
@@ -177,6 +185,10 @@ hgroup {
 	margin: 10px auto;
 }
 
+.about-right .line {
+	background-color: white;
+}
+
 .fa-briefcase {
 	font-size: 25px !important;
 	padding: 7px;
@@ -184,13 +196,8 @@ hgroup {
 
 /*Contact*/
 
-.contact h3,
-.contact .fa-star {
+.contact h3 {
 	color: #0DB7C4;
-}
-
-.contact .line {
-	background-color: #0DB7C4;
 }
 
 .container .fa {
@@ -202,6 +209,10 @@ hgroup {
 
 .container .fa-map-marker {
 	padding: 5px 8px;
+}
+
+.contact p:hover {
+	color: #0DB7C4;
 }
 
 form input, 
@@ -244,6 +255,10 @@ footer .fa {
 	border-radius: 50%;
 	padding: 5px;
 	color: #fff;
+}
+
+footer .fa:hover {
+	background-color: #0DB7C4;
 }
 
 @media (min-width: 900px) {
