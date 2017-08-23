@@ -1,20 +1,9 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Prueba Esquema</title>
-	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
+<?php
+get_header();
+?>
 
-<!--START CAROUSEL SECTION-->
+<!--START HEADER SECTION-->
 <header>
 	<nav class="nav-bar">
 	<div class="nav-bar__hamburger">
@@ -69,7 +58,7 @@
 		<div class="header__carousel"></div>
 	</div>
 </header>
-<!--END OF CAROUSEL-->
+<!--END OF HEADER-->
 
 <!--START ABOUT SECTION-->
 <section class="about">
@@ -140,21 +129,7 @@
 </section>
 <!--END OF CONTACT SECTION-->
 
-<!--START OF FOOTER-->
-<footer class="text-center">
-	<i class="fa fa-facebook" aria-hidden="true"></i>
-	<i class="fa fa-twitter" aria-hidden="true"></i>
-	<i class="fa fa-google-plus" aria-hidden="true"></i>
-	<i class="fa fa-vine" aria-hidden="true"></i>
-	<i class="fa fa-linkedin" aria-hidden="true"></i>
-	<i class="fa fa-pinterest-p" aria-hidden="true"></i>
-</footer>
-<!--END OF FOOTER-->
 
-<script type="text/javascript" src="schemes.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-<script src="https://use.fontawesome.com/5195e933ab.js"></script>
-</body>
-</html>
+<?php
+get_footer();
+?>

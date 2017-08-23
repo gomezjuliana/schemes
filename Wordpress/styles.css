@@ -1,0 +1,315 @@
+/*
+Theme Name: Schemes
+Theme URI: www.gomezjuliana.com
+Description: A brief description.
+Version: 1.0
+Author: Juliana Gomez
+Author URI: www.gomezjuliana.com
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/*Menu*/
+.nav-bar {
+	height: 80px;
+	display: inline;
+}
+
+.nav-bar__hamburger {
+	position: absolute;
+	right: 30px;
+	top: 25px;
+	z-index: 20;
+}
+
+.nav-bar__menu {
+	display: none;
+}
+
+.nav-open {
+	display: block;
+	position: fixed;
+	top: 50px;
+	width: 80%;
+	z-index: 1;
+	left: 15%;
+}
+
+.nav-bar__menu--link {
+	background-color: #FFF;
+	border-bottom: 1px solid #999;
+	font-size: 16px;
+	list-style: none;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fa-bars {
+	font-size: 30px;
+	color: #fff;
+}
+
+.nav-bar__hamburger p {
+	display: inline;
+	color: #fff;
+}
+
+/*Headings*/
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 45px;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 21px;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #898F8F;
+}
+
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	line-height: 20px;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	color: #898F8F;
+}
+
+hgroup {
+	margin-bottom: 20px;
+}
+
+/*Header*/
+
+.header__container hgroup, .header__cta p {
+	color: #fff;
+}
+
+.header__container hgroup {
+	border-top: solid;
+	border-bottom: solid;
+	width: 256px;
+	margin: 0 auto;
+}
+
+.header__cta {
+	margin-top: 50px;
+}
+
+.header__container {
+	position: absolute;
+	top: 20px;
+	left: 10%;
+	width: 80%;
+	height: 40vh;
+	transform: translateY(50%);
+}
+
+/*Carousel*/
+
+.d-block {
+	height: 80vh;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	align-items: flex-end;
+	bottom: 20px;
+}
+
+.carousel-shadow {
+	background: rgba(0,0,0,0.5);
+	height: 80vh;
+	width: 100%;
+	position: absolute;
+}
+
+.carousel-indicators li {
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+}
+
+.carousel-indicators .active {
+	background-color: #5CC9C1;
+}
+
+/*About*/
+
+.about {
+	background-color: #164D61;
+	color: #fff;
+	padding: 30px;
+}
+
+.line {
+	width: 40%;
+	height: 2px;
+	background: #0DB7C4;
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.fa-star {
+	color: #0DB7C4;
+}
+
+.about__briefcase-shadow {
+	height: 40px;
+	width: 40px;
+	background-color: #455A64;
+	border-radius: 50%;
+	margin: 10px auto;
+}
+
+.about-right .line {
+	background-color: white;
+}
+
+.fa-briefcase {
+	font-size: 25px !important;
+	padding: 7px;
+}
+
+/*Contact*/
+
+.contact h3 {
+	color: #0DB7C4;
+}
+
+.container .fa {
+	border: 2px solid #164D61;
+	border-radius: 50%;
+	padding: 5px 6px;
+	color: #164D61;
+}
+
+.container .fa-map-marker {
+	padding: 5px 8px;
+}
+
+.contact p:hover {
+	color: #0DB7C4;
+}
+
+form input, 
+#message {
+	background-color: #164D61;
+	padding: 5px 10px;
+	border: none;
+	margin: 5px;
+	width: 90%;
+}
+
+#message {
+	height: 300px;
+	color: grey;
+}
+
+.padding-30 {
+	padding: 30px;
+}
+
+.contact .btn {
+	background-color: #fff;
+	color: #666666;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	border-radius: 0;
+}
+
+/*footer*/
+footer {
+	background-color: #272F31;
+	height: 50px;
+}
+
+footer .fa {
+	margin: 12px 5px 0;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	padding: 5px;
+	color: #fff;
+}
+
+footer .fa:hover {
+	background-color: #0DB7C4;
+}
+
+@media (min-width: 900px) {
+	.line {
+		width: 14%;
+	}
+
+	.about {
+		padding-bottom: 50px;
+	}
+
+	.about-right .line {
+		width: 2px;
+		height: 170px;
+		position: relative;
+		top: -120px;
+		left: 90px;
+	}
+
+	.about-right {
+		display: block;
+		float: left;
+		width: 30%;
+		height: 172px;
+	}
+
+	.about-right .fa-chevron-right {
+		display: none;
+	}
+
+	.contact {
+		clear: both;
+	}
+
+	.form__right,
+	.form__left {
+		display: inline-block;
+	}
+
+	#message {
+		height: 150px;
+		width: 773px;
+	}
+
+}
